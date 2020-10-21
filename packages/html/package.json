@@ -1,0 +1,39 @@
+{
+  "name": "@ts-lerna/html",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Mauricio Piber Fão <mauriciopiber@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/html.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@ts-lerna/db": "^0.0.0",
+    "@ts-lerna/lib": "^1.0.0",
+    "@ts-lerna/types": "^0.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-modules-umd": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@types/webpack": "^4.41.23",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.6",
+    "ts-loader": "^8.0.6",
+    "ts-node": "^9.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
+}

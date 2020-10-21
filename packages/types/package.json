@@ -1,0 +1,23 @@
+{
+  "name": "@ts-lerna/types",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Mauricio Piber Fão <mauriciopiber@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/model.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@ts-lerna/db": "^0.0.0",
+    "@ts-lerna/lib": "^1.0.0"
+  }
+}
